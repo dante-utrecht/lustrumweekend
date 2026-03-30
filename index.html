@@ -1032,14 +1032,14 @@ body {
 }
 
 .praktisch-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin-top: 1rem;
 }
 
 @media (max-width: 600px) {
-  .praktisch-grid { grid-template-columns: 1fr; }
+
 }
 
 .info-block {
@@ -1634,7 +1634,7 @@ blockquote.heraldic cite {
               </div>
               <div>
                 <div class="detail-label">Check-in / Check-out</div>
-                <div class="detail-value">Aankomst: vrijdag — <em>tijdstip volgt</em><br>Vertrek: zondag — <em>tijdstip volgt</em></div>
+                <div class="detail-value">Aankomst: vrijdag 10 april, inloop 20:00<br>Vertrek: zondag 12 april voor 10:30</div>
               </div>
             </div>
           </div>
@@ -1705,7 +1705,7 @@ blockquote.heraldic cite {
           <div class="prog-entry">
             <div class="prog-time">21:00+</div>
             <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Borrel</strong><br><em>Planken, goede wijn en beter gezelschap</em></div>
+            <div class="prog-desc"><strong>Borrel</strong><br><em>Pinchos, goede wijn en beter gezelschap</em></div>
           </div>
         </div>
 
@@ -1716,12 +1716,12 @@ blockquote.heraldic cite {
           <div class="prog-entry">
             <div class="prog-time">10:00</div>
             <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Brunch</strong><br><em>Gezamenlijk ochtendmaal</em></div>
+            <div class="prog-desc"><strong>Brunch</strong><br><em>Van 10:00 tot 12:00</em></div>
           </div>
           <div class="prog-entry">
-            <div class="prog-time">13:00</div>
+            <div class="prog-time">12:00</div>
             <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Aankomst zaterdaggroep</strong><br><em>Kasteel en B&amp;B</em></div>
+            <div class="prog-desc"><strong>Aankomst zaterdaggroep</strong></div>
           </div>
           <div class="prog-entry">
             <div class="prog-time">13:00</div>
@@ -1739,29 +1739,19 @@ blockquote.heraldic cite {
             <div class="prog-desc"><strong>Fotomoment</strong></div>
           </div>
           <div class="prog-entry">
-            <div class="prog-time">18:15</div>
+            <div class="prog-time">18:00</div>
             <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Openingsspeech</strong></div>
+            <div class="prog-desc"><strong>Opening Gala</strong></div>
           </div>
           <div class="prog-entry">
             <div class="prog-time">18:30</div>
-            <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Geestelijkmoment</strong></div>
-          </div>
-          <div class="prog-entry">
-            <div class="prog-time">19:00</div>
             <div class="prog-dot"></div>
             <div class="prog-desc"><strong>Galadiner</strong><br><em>Met speeches en toasten</em></div>
           </div>
           <div class="prog-entry">
             <div class="prog-time">22:00</div>
             <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Aankondiging Feest</strong></div>
-          </div>
-          <div class="prog-entry">
-            <div class="prog-time">22:00+</div>
-            <div class="prog-dot"></div>
-            <div class="prog-desc"><strong>Gala &amp; Feest</strong></div>
+            <div class="prog-desc"><strong>Feest</strong></div>
           </div>
         </div>
 
@@ -1780,7 +1770,7 @@ blockquote.heraldic cite {
             <div class="prog-desc"><strong>Opruiming &amp; Uitchecken</strong></div>
           </div>
           <div class="prog-entry">
-            <div class="prog-time">11:00</div>
+            <div class="prog-time">10:30</div>
             <div class="prog-dot"></div>
             <div class="prog-desc"><strong>Vertrek</strong><br><em>Veilige thuisreis toegewenst</em></div>
           </div>
@@ -1950,7 +1940,7 @@ blockquote.heraldic cite {
             <div class="act-logistics">
               <div class="act-row">
                 <div class="act-row-label">Adres</div>
-                <div class="act-row-val"><a href="https://www.chocolatier-defroidmont.be/nl/" target="_blank">Chocolatier Defroidmont, Durbuy</a></div>
+                <div class="act-row-val"><a href="https://www.chocolatier-defroidmont.be/" target="_blank">Chocolatier Defroidmont, Durbuy</a></div>
               </div>
               <div class="act-row">
                 <div class="act-row-label">Vertrek</div>
@@ -1984,7 +1974,7 @@ blockquote.heraldic cite {
             <div class="act-logistics">
               <div class="act-row">
                 <div class="act-row-label">Adres</div>
-                <div class="act-row-val"><a href="http://batarden.be" target="_blank">Rue du Marché, La Roche-en-Ardenne</a></div>
+                <div class="act-row-val"><a href="https://www.batarden.be/" target="_blank">Rue du Marché, La Roche-en-Ardenne</a></div>
               </div>
               <div class="act-row">
                 <div class="act-row-label">Vertrek</div>
@@ -2018,7 +2008,7 @@ blockquote.heraldic cite {
             <div class="act-logistics">
               <div class="act-row">
                 <div class="act-row-label">Adres</div>
-                <div class="act-row-val">Vertrekpunt Durbuy centrum</div>
+                <div class="act-row-val"><a href="https://reservation.elloha.com/Search/GetDetail?idFormula=ba2f7be0-2e0c-4f96-9415-4ef542bcf393" target="_blank">Place aux Foires 25, Durbuy ↗</a></div>
               </div>
               <div class="act-row">
                 <div class="act-row-label">Vertrek</div>
@@ -2102,7 +2092,7 @@ blockquote.heraldic cite {
               </div>
               <div class="act-row">
                 <div class="act-row-label">Duur</div>
-                <div class="act-row-val">Nader te bepalen</div>
+                <div class="act-row-val">1 tot 2 uur</div>
               </div>
             </div>
             <div class="act-persons">13 deelnemers</div>
@@ -2160,74 +2150,243 @@ blockquote.heraldic cite {
 
       <div class="kamers-grid reveal reveal-delay-1">
 
-        <!-- Placeholder kamer 1 -->
         <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">Kamer Oranje</div>
+            <div class="kamer-naam">Kamer Oranje <span style="opacity:0.4;font-size:0.75rem;">· 3</span></div>
           </div>
           <div class="kamer-body">
-            <div class="kamer-persoon placeholder-text">Naam 1 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 2 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 3 (volgt)</div>
+            <div class="kamer-persoon">Anne-Ruth</div>
+            <div class="kamer-persoon">Linde</div>
+            <div class="kamer-persoon">Anouk</div>
+            <div class="kamer-persoon">Leah</div>
           </div>
         </div>
 
         <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">Kamer Nassau</div>
+            <div class="kamer-naam">Kamer Nassau <span style="opacity:0.4;font-size:0.75rem;">· 4</span></div>
           </div>
           <div class="kamer-body">
-            <div class="kamer-persoon placeholder-text">Naam 1 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 2 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 3 (volgt)</div>
+            <div class="kamer-persoon">Annebeth</div>
+            <div class="kamer-persoon">Lydian</div>
           </div>
         </div>
 
         <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">Kamer Maurits</div>
+            <div class="kamer-naam">Kamer Ardennen <span style="opacity:0.4;font-size:0.75rem;">· 7</span></div>
           </div>
           <div class="kamer-body">
-            <div class="kamer-persoon placeholder-text">Naam 1 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 2 (volgt)</div>
+            <div class="kamer-persoon">Avner</div>
+            <div class="kamer-persoon">Elise</div>
+            <div class="kamer-persoon">Lotte</div>
+            <div class="kamer-persoon">Sanne</div>
           </div>
         </div>
 
         <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">Kamer Ardennen</div>
+            <div class="kamer-naam">Kamer Blier <span style="opacity:0.4;font-size:0.75rem;">· 8</span></div>
           </div>
           <div class="kamer-body">
-            <div class="kamer-persoon placeholder-text">Naam 1 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 2 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 3 (volgt)</div>
+            <div class="kamer-persoon">Pim</div>
+            <div class="kamer-persoon">Niels</div>
+            <div class="kamer-persoon">Peter</div>
+            <div class="kamer-persoon">Stolk</div>
           </div>
         </div>
 
         <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">Kamer Blier</div>
+            <div class="kamer-naam">Kamer Ourthe <span style="opacity:0.4;font-size:0.75rem;">· 9</span></div>
           </div>
           <div class="kamer-body">
-            <div class="kamer-persoon placeholder-text">Naam 1 (volgt)</div>
-            <div class="kamer-persoon placeholder-text">Naam 2 (volgt)</div>
+            <div class="kamer-persoon">Anna</div>
+            <div class="kamer-persoon">Lucca</div>
+            <div class="kamer-persoon">Jetske</div>
+            <div class="kamer-persoon">Abs</div>
           </div>
         </div>
 
-        <div class="kamer-card" style="border-style:dashed;opacity:0.4;">
+        <div class="kamer-card">
           <div class="kamer-header">
             <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
-            <div class="kamer-naam">… meer kamers</div>
+            <div class="kamer-naam">Kamer Maurits <span style="opacity:0.4;font-size:0.75rem;">· 10</span></div>
           </div>
           <div class="kamer-body">
-            <div style="font-family:var(--font-serif);font-style:italic;font-size:0.85rem;color:var(--parch-deep);padding:0.5rem 0;">
-              Volledige indeling volgt
-            </div>
+            <div class="kamer-persoon">Sem</div>
+            <div class="kamer-persoon">Boaz</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Holland <span style="opacity:0.4;font-size:0.75rem;">· 11</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Rosa</div>
+            <div class="kamer-persoon">Rosalie</div>
+            <div class="kamer-persoon">Sofie</div>
+            <div class="kamer-persoon">Florance</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Zeeland <span style="opacity:0.4;font-size:0.75rem;">· 12</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Rowan</div>
+            <div class="kamer-persoon">Dion</div>
+            <div class="kamer-persoon">Aron</div>
+            <div class="kamer-persoon">Daniel</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Gelre <span style="opacity:0.4;font-size:0.75rem;">· 13</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Julian</div>
+            <div class="kamer-persoon">Roeland</div>
+            <div class="kamer-persoon">Joshua</div>
+            <div class="kamer-persoon">Bart</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Friesland <span style="opacity:0.4;font-size:0.75rem;">· 14</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Rik</div>
+            <div class="kamer-persoon">Bouman</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Groningen <span style="opacity:0.4;font-size:0.75rem;">· 15</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Koen</div>
+            <div class="kamer-persoon">Knol</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Brabant <span style="opacity:0.4;font-size:0.75rem;">· 16</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Esther</div>
+            <div class="kamer-persoon">Merel</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Limburg <span style="opacity:0.4;font-size:0.75rem;">· 17</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Jordi</div>
+            <div class="kamer-persoon">Maarten</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Vlaanderen <span style="opacity:0.4;font-size:0.75rem;">· 18</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Eveliene</div>
+            <div class="kamer-persoon">Sarah</div>
+            <div class="kamer-persoon">Lise-Marie</div>
+            <div class="kamer-persoon">Joanne</div>
+            <div class="kamer-persoon">Gerline</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Drenthe <span style="opacity:0.4;font-size:0.75rem;">· 19</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Bob</div>
+            <div class="kamer-persoon">Lourens</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Overijssel <span style="opacity:0.4;font-size:0.75rem;">· 20</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Merijn</div>
+            <div class="kamer-persoon">Rikjan</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Utrecht <span style="opacity:0.4;font-size:0.75rem;">· 21</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Lydia</div>
+            <div class="kamer-persoon">Tessa</div>
+            <div class="kamer-persoon">Mathilde</div>
+          </div>
+        </div>
+
+        <div class="kamer-card" style="border-color:rgba(201,160,82,0.4);background:rgba(201,160,82,0.06);">
+          <div class="kamer-header" style="background:rgba(201,160,82,0.15);">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Generaliteit <span style="opacity:0.4;font-size:0.75rem;">· 22</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Rick</div>
+            <div class="kamer-persoon">Dante</div>
+            <div class="kamer-persoon">Lodewijk</div>
+            <div class="kamer-persoon">Luuk</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer Bourgondië <span style="opacity:0.4;font-size:0.75rem;">· 23</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Annelie</div>
+            <div class="kamer-persoon">Marith</div>
+            <div class="kamer-persoon">Romina</div>
+          </div>
+        </div>
+
+        <div class="kamer-card">
+          <div class="kamer-header">
+            <div class="kamer-icon"><svg><use href="#icon-bed"/></svg></div>
+            <div class="kamer-naam">Kamer d'Or <span style="opacity:0.4;font-size:0.75rem;">· 24</span></div>
+          </div>
+          <div class="kamer-body">
+            <div class="kamer-persoon">Eva</div>
           </div>
         </div>
 
@@ -2254,13 +2413,15 @@ blockquote.heraldic cite {
         <div class="pak-category reveal reveal-delay-1">
           <div class="pak-cat-title">Kleding</div>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Kleding voor 3 dagen</span></label>
-          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Galaoutfit (avond zaterdag)</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Borreloutfit (vrijdagavond)</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Galaoutfit (zaterdagavond)</span></label>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Sportieve kleding (activiteiten)</span></label>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Stevige buitenschoenen</span></label>
-          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Regenjack of poncho</span></label>
-          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Warme trui / vest</span></label>
-          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Pyjama / nachtkleding</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Regenjack of regenjas</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Warme trui of vest</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Pyjama of nachtkleding</span></label>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Badhanddoek</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Maurits gadgets</span></label>
         </div>
 
         <div class="pak-category reveal reveal-delay-2">
@@ -2270,7 +2431,8 @@ blockquote.heraldic cite {
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Deodorant</span></label>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Zonnebrand (indien nodig)</span></label>
           <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Persoonlijke medicatie</span></label>
-          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Pleisters / pijnstillers</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">Paracetamol</span></label>
+          <label class="pak-item"><input type="checkbox"><span class="pak-checkbox"></span><span class="pak-text">ORS</span></label>
         </div>
 
         <div class="pak-category reveal reveal-delay-3">
@@ -2292,6 +2454,37 @@ blockquote.heraldic cite {
         <p style="font-family:var(--font-body);font-style:italic;font-size:1rem;color:var(--ink);line-height:1.6;">
           Het precieze kledingvoorschrift voor zaterdagavond wordt nader gecommuniceerd. Denk aan feestelijke, representatieve kleding passend bij het lustrum van een adellijk dispuut.
         </p>
+      </div>
+
+      <!-- Thema & Kleuren Matrix -->
+      <div class="reveal" style="margin-top:2rem;">
+        <p style="font-family:var(--font-sc);font-size:0.7rem;letter-spacing:0.25em;color:var(--navy-mid);text-transform:uppercase;margin-bottom:1rem;">Thema &amp; Kleuren per Avond</p>
+        <div style="display:grid;grid-template-columns:auto 1fr 1fr;border:1px solid rgba(26,18,8,0.12);">
+          <!-- Header row -->
+          <div style="background:var(--navy-deep);padding:0.75rem 1rem;border-right:1px solid rgba(201,160,82,0.2);border-bottom:1px solid rgba(201,160,82,0.2);"></div>
+          <div style="background:var(--navy-deep);padding:0.75rem 1rem;text-align:center;border-right:1px solid rgba(201,160,82,0.2);border-bottom:1px solid rgba(201,160,82,0.2);font-family:var(--font-sc);font-size:0.65rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;">Vrijdagavond</div>
+          <div style="background:var(--navy-deep);padding:0.75rem 1rem;text-align:center;border-bottom:1px solid rgba(201,160,82,0.2);font-family:var(--font-sc);font-size:0.65rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;">Zaterdagavond</div>
+          <!-- Heren -->
+          <div style="padding:1.25rem 1rem;background:var(--parch-dark);border-right:1px solid rgba(26,18,8,0.1);border-bottom:1px solid rgba(26,18,8,0.08);font-family:var(--font-sc);font-size:0.65rem;letter-spacing:0.15em;color:var(--navy-mid);text-transform:uppercase;white-space:nowrap;">Heren</div>
+          <div style="padding:1.25rem 1rem;background:var(--parch-dark);border-right:1px solid rgba(26,18,8,0.1);border-bottom:1px solid rgba(26,18,8,0.08);">
+            <div style="font-family:var(--font-display);font-size:0.85rem;color:var(--navy-deep);margin-bottom:0.3rem;">Thema volgt</div>
+            <div style="font-family:var(--font-body);font-size:0.85rem;color:var(--navy-mid);font-style:italic;">Kleuren volgen</div>
+          </div>
+          <div style="padding:1.25rem 1rem;background:var(--parch-dark);border-bottom:1px solid rgba(26,18,8,0.08);">
+            <div style="font-family:var(--font-display);font-size:0.85rem;color:var(--navy-deep);margin-bottom:0.3rem;">Thema volgt</div>
+            <div style="font-family:var(--font-body);font-size:0.85rem;color:var(--navy-mid);font-style:italic;">Kleuren volgen</div>
+          </div>
+          <!-- Dames -->
+          <div style="padding:1.25rem 1rem;background:var(--cream);border-right:1px solid rgba(26,18,8,0.1);font-family:var(--font-sc);font-size:0.65rem;letter-spacing:0.15em;color:var(--navy-mid);text-transform:uppercase;white-space:nowrap;">Dames</div>
+          <div style="padding:1.25rem 1rem;background:var(--cream);border-right:1px solid rgba(26,18,8,0.1);">
+            <div style="font-family:var(--font-display);font-size:0.85rem;color:var(--navy-deep);margin-bottom:0.3rem;">Thema volgt</div>
+            <div style="font-family:var(--font-body);font-size:0.85rem;color:var(--navy-mid);font-style:italic;">Kleuren volgen</div>
+          </div>
+          <div style="padding:1.25rem 1rem;background:var(--cream);">
+            <div style="font-family:var(--font-display);font-size:0.85rem;color:var(--navy-deep);margin-bottom:0.3rem;">Thema volgt</div>
+            <div style="font-family:var(--font-body);font-size:0.85rem;color:var(--navy-mid);font-style:italic;">Kleuren volgen</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -2432,10 +2625,7 @@ blockquote.heraldic cite {
             <svg width="18" height="18"><use href="#icon-car"/></svg>
             Vervoer
           </div>
-          <div class="info-row">
-            <div class="info-key">Vrijdag vertrek</div>
-            <div class="info-val">Zie het draaiboek. Zorg dat je op tijd vertrekt zodat je aanwezig bent voor de opening om 21:00.</div>
-          </div>
+
           <div class="info-row">
             <div class="info-key">Zaterdag vertrek</div>
             <div class="info-val">Zorg dat je uiterlijk om 12:00 bij Château de Blier bent.</div>
@@ -2460,11 +2650,7 @@ blockquote.heraldic cite {
             Financiën
           </div>
           <div class="info-row">
-            <div class="info-key">Inbegrepen</div>
-            <div class="info-val">Het gehele weekend is inbegrepen in de bijdrage. Denk aan accommodatie, maaltijden, activiteiten en dranken tijdens het programma.</div>
-          </div>
-          <div class="info-row">
-            <div class="info-key">Niet inbegrepen</div>
+            <div class="info-key">Eigen kosten</div>
             <div class="info-val">Extra consumpties op het terras, eventuele vernielingen en benzinekosten voor eigen vervoer.</div>
           </div>
           <div class="info-row">
@@ -2480,7 +2666,7 @@ blockquote.heraldic cite {
           </div>
           <div class="info-row">
             <div class="info-key">Dante (contactpersoon)</div>
-            <div class="info-val">Via WhatsApp</div>
+            <div class="info-val">0629919764</div>
           </div>
           <div class="info-row">
             <div class="info-key">Rick de Koning</div>
@@ -2490,10 +2676,7 @@ blockquote.heraldic cite {
             <div class="info-key">Château de Blier</div>
             <div class="info-val"><a href="https://www.chateaudeblier.com" target="_blank">chateaudeblier.com</a></div>
           </div>
-          <div class="info-row">
-            <div class="info-key">Mail verhuurders</div>
-            <div class="info-val">huizeniiilustrumdispuutmaurits@gmail.com</div>
-          </div>
+
         </div>
 
         <div class="info-block reveal reveal-delay-2">
@@ -2507,11 +2690,7 @@ blockquote.heraldic cite {
           </div>
           <div class="info-row">
             <div class="info-key">Uitchecken</div>
-            <div class="info-val">Zondag 12 april voor 11:00</div>
-          </div>
-          <div class="info-row">
-            <div class="info-key">Wifi</div>
-            <div class="info-val">Beschikbaar · netwerknaam volgt ter plaatse</div>
+            <div class="info-val">Zondag 12 april voor 10:30</div>
           </div>
           <div class="info-row">
             <div class="info-key">Telefonisch bereik</div>
@@ -2519,17 +2698,21 @@ blockquote.heraldic cite {
           </div>
           <div class="info-row">
             <div class="info-key">Dieetwensen</div>
-            <div class="info-val">Reeds doorgegeven aan de koks — anders: meld direct bij commissie</div>
+            <div class="info-val">Reeds doorgegeven aan de koks. Meld eventuele wijzigingen direct bij de commissie.</div>
+          </div>
+          <div class="info-row">
+            <div class="info-key">Laadpaal</div>
+            <div class="info-val">Beschikbaar op de parkeerplaats van de Gîte Taer</div>
           </div>
         </div>
 
         <!-- NOODGEVALLEN - full width -->
-        <div class="info-block reveal reveal-delay-1" style="grid-column: 1 / -1; border-color: rgba(201,160,82,0.35); background: rgba(201,160,82,0.05);">
+        <div class="info-block reveal reveal-delay-1" style="border-color: rgba(201,160,82,0.35); background: rgba(201,160,82,0.05);">
           <div class="info-block-title" style="color:var(--gold-light);">
             <svg width="18" height="18"><use href="#icon-phone"/></svg>
             Noodnummers &amp; Hulpdiensten — België
           </div>
-          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;">
             <div>
               <div class="info-row">
                 <div class="info-key">Algemeen noodnummer</div>
